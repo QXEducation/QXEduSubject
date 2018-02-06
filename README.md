@@ -1,2 +1,0 @@
-# QXEduSubject
-QXEDUOWN
