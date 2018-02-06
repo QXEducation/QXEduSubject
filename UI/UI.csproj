@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E60C5C2-66D7-4349-8918-08953CC9F8DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHelp.Designer.cs">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOPCharact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOPCharact.Designer.cs">
+      <DependentUpon>FormOPCharact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOPClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOPClass.Designer.cs">
+      <DependentUpon>FormOPClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOPGread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOPGread.Designer.cs">
+      <DependentUpon>FormOPGread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOPStuInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOPStuInfo.Designer.cs">
+      <DependentUpon>FormOPStuInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOPstuReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOPstuReg.Designer.cs">
+      <DependentUpon>FormOPstuReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOPTeaInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOPTeaInfo.Designer.cs">
+      <DependentUpon>FormOPTeaInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegList.Designer.cs">
+      <DependentUpon>FormRegList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStuCharact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStuCharact.Designer.cs">
+      <DependentUpon>FormStuCharact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStuGreadin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStuGreadin.Designer.cs">
+      <DependentUpon>FormStuGreadin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStuInc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStuInc.Designer.cs">
+      <DependentUpon>FormStuInc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStuReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStuReg.Designer.cs">
+      <DependentUpon>FormStuReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSubjectInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSubjectInfo.Designer.cs">
+      <DependentUpon>FormSubjectInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTeaInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeaInfo.Designer.cs">
+      <DependentUpon>FormTeaInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTeaSub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeaSub.Designer.cs">
+      <DependentUpon>FormTeaSub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormHelp.resx">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOPCharact.resx">
+      <DependentUpon>FormOPCharact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOPClass.resx">
+      <DependentUpon>FormOPClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOPGread.resx">
+      <DependentUpon>FormOPGread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOPStuInfo.resx">
+      <DependentUpon>FormOPStuInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOPstuReg.resx">
+      <DependentUpon>FormOPstuReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOPTeaInfo.resx">
+      <DependentUpon>FormOPTeaInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegList.resx">
+      <DependentUpon>FormRegList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStuCharact.resx">
+      <DependentUpon>FormStuCharact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStuGreadin.resx">
+      <DependentUpon>FormStuGreadin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStuInc.resx">
+      <DependentUpon>FormStuInc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStuReg.resx">
+      <DependentUpon>FormStuReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSubjectInfo.resx">
+      <DependentUpon>FormSubjectInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeaInfo.resx">
+      <DependentUpon>FormTeaInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeaSub.resx">
+      <DependentUpon>FormTeaSub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_DAL\BLLDAL.csproj">
+      <Project>{f59d0fd1-431d-41ed-82cf-9eadcc53b7e3}</Project>
+      <Name>BLLDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

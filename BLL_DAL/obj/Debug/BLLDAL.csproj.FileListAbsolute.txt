@@ -1,0 +1,12 @@
+C:\Users\54433\Desktop\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\bin\Debug\BLL_DAL.dll
+C:\Users\54433\Desktop\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\bin\Debug\BLL_DAL.pdb
+C:\Users\54433\Desktop\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\obj\Debug\BLLDAL.csprojResolveAssemblyReference.cache
+C:\Users\54433\Desktop\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\obj\Debug\BLLDAL.csproj.CoreCompileInputs.cache
+C:\Users\54433\Desktop\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\obj\Debug\BLL_DAL.dll
+C:\Users\54433\Desktop\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\obj\Debug\BLL_DAL.pdb
+Z:\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\bin\Debug\BLL_DAL.dll
+Z:\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\bin\Debug\BLL_DAL.pdb
+Z:\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\obj\Debug\BLLDAL.csproj.CoreCompileInputs.cache
+Z:\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\obj\Debug\BLL_DAL.dll
+Z:\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\obj\Debug\BLL_DAL.pdb
+Z:\QXEDUProject-offline\QXEDU-Offline\QXEDU\BLL_DAL\obj\Debug\BLLDAL.csprojResolveAssemblyReference.cache
